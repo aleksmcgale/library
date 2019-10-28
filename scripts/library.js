@@ -92,7 +92,7 @@ function render(){
         toggle.setAttribute('class', 'toggle');
         toggle.setAttribute('data-attribute', i.toString());
         if (myLibrary[i].read === 'yes'){
-            toggle.style.backgroundColor = 'green';
+            toggle.style.backgroundColor = 'lightblue';
             toggle.innerHTML = 'Read';
         }else{
             toggle.innerHTML = 'Not Read';
